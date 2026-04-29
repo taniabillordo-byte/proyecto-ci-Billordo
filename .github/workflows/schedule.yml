@@ -1,0 +1,9 @@
+name: Trigger Programado
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+jobs:
+  imprimir:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Ejecución programada"

@@ -1,0 +1,10 @@
+name: Trigger Issue Comment
+on:
+  issue_comment:
+    types: [created]
+jobs:
+  imprimir:
+    if: github.event.issue.pull_request != null
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Comentario en PR detectado"

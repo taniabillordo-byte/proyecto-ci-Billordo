@@ -1,0 +1,9 @@
+name: Trigger Issues
+on:
+  issues:
+    types: [opened]
+jobs:
+  imprimir:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Nuevo issue creado"
