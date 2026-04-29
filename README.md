@@ -14,7 +14,7 @@ El flujo de trabajo configurado en `.github/workflows/dotnet.yml` realiza las si
 4. **Validación:** Ejecuta `dotnet restore` para las dependencias y `dotnet build` para asegurar que el proyecto compila correctamente.
 
 ## Estado del Build
-![Estado del Build](PEGAR_AQUÍ_EL_LINK_DE_TU_CAPTURA_VERDE_O_SUBIR_LA_IMAGEN)
+![.NET Core CI](https://github.com/taniabillordo-byte/proyecto-ci-Billordo/actions/workflows/dotnet.yml/badge.svg)
 
 ## Evidencia de Trabajo Colaborativo (Pull Request)
 Se realizó un Pull Request para integrar cambios desde la rama `feature-tania-cambios`. El sistema de CI validó la propuesta antes de permitir la fusión.
