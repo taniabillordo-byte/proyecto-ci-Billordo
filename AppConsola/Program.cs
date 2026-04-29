@@ -10,3 +10,5 @@ namespace AppConsola
         }
     }
 }
+
+Console.WriteLine("Proyecto con CI configurado por Tania Billordo");
