@@ -26,14 +26,14 @@ Se realizó un Pull Request para integrar cambios desde la rama `feature-tania-c
 # Práctico 5: Triggers y Automatización de GitHub Actions
 En esta etapa se configuraron 6 disparadores (triggers) específicos para automatizar diferentes eventos del ciclo de vida del desarrollo:
 
-Push: Se activa al subir cambios a la rama principal.
+* Push: Se activa al subir cambios a la rama principal.
 
-Pull Request: Se dispara al abrir una solicitud de extracción hacia principal.
+* Pull Request: Se dispara al abrir una solicitud de extracción hacia principal.
 
-Issues: Se ejecuta automáticamente al crear un nuevo Issue.
+* Issues: Se ejecuta automáticamente al crear un nuevo Issue.
 
-Issue Comment: Configurado con un filtro para activarse únicamente cuando se comenta dentro de un Pull Request.
+* Issue Comment: Configurado con un filtro para activarse únicamente cuando se comenta dentro de un Pull Request.
 
-Workflow Dispatch (Manual): Permite la ejecución manual desde la pestaña Actions, incluyendo un menú de selección de nivel de alerta (Informativo, Advertencia, Crítico).
+* Workflow Dispatch (Manual): Permite la ejecución manual desde la pestaña Actions, incluyendo un menú de selección de nivel de alerta (Informativo, Advertencia, Crítico).
 
-Schedule (Programado): Ejecución automática configurada mediante cron para activarse cada 5 minutos.
+* Schedule (Programado): Ejecución automática configurada mediante cron para activarse cada 5 minutos.
